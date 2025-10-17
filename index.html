@@ -9,10 +9,25 @@
     </head>
 
     <body>
-        <h1>2048</h1>
-        <hr>
-        <h2>Score: <span id="score">0</span></h2>
-        <div id="board">
+        <div class="game-container">
+            <header>
+                <h1>2048</h1>
+            </header>
+            
+            <div class="score-container">
+                <div class="score-box">
+                    <div class="score-label">SCORE</div>
+                    <div class="score-value" id="score">0</div>
+                </div>
+            </div>
+            
+          
+            
+            <div id="board"></div>
+            
+            <div class="controls">
+                <button onclick="location.reload()" class="new-game-btn">Restart</button>
+            </div>
         </div>
     </body>
 </html>
